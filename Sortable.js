@@ -869,7 +869,7 @@
                         // reactjs
                         var tempDragEl = _clone(dragEl);
                         parentEl.insertBefore(tempDragEl, dragEl);
-                        rootEl.insertBefore(dragEl, cloneEl);
+                        rootEl.insertBefore(dragEl, rootEl.children[oldIndex]);
                         cloneEl.remove();
 
                         // Add event
