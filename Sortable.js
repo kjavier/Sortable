@@ -870,7 +870,7 @@
                         var tempDragEl = _clone(dragEl);
                         parentEl.insertBefore(tempDragEl, dragEl);
                         rootEl.insertBefore(dragEl, rootEl.children[oldIndex]);
-                        cloneEl.remove();
+                        $(cloneEl).remove();
 
                         // Add event
                         //_dispatchEvent(null, parentEl, 'add', dragEl, rootEl, oldIndex, newIndex);
